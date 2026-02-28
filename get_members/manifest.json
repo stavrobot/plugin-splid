@@ -1,0 +1,6 @@
+{
+  "name": "get_members",
+  "description": "List all active members in the Splid group.",
+  "entrypoint": "run.js",
+  "parameters": {}
+}

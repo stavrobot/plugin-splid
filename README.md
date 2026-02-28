@@ -8,6 +8,7 @@ This plugin lets you interact with your Splid expense-sharing groups through Sta
 
 - Check who owes whom and how much (**get_balance**)
 - List recent expenses and payments (**get_expenses**)
+- List the members of the group (**get_members**)
 - Add new expenses to the group (**add_expense**)
 - Record payments between members (**add_payment**)
 
