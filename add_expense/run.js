@@ -19,7 +19,7 @@ function findMember(members, name) {
 }
 
 async function main() {
-  const input = fs.readFileSync("/dev/stdin", "utf-8");
+  const input = fs.readFileSync(0, "utf-8");
   const params = JSON.parse(input);
 
   const unknown = Object.keys(params).filter((k) => !KNOWN_PARAMS.has(k));
