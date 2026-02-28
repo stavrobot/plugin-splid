@@ -1,0 +1,14 @@
+{
+  "name": "splid",
+  "description": "Manage shared expenses in Splid groups. Check balances, list expenses, and add new expenses.",
+  "init": {
+    "entrypoint": "init.sh",
+    "async": false
+  },
+  "config": {
+    "invite_code": {
+      "description": "The Splid group invite code (e.g. 'PWJ E2B P7A'). Found in the Splid app under group settings.",
+      "required": true
+    }
+  }
+}

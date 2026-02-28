@@ -1,0 +1,6 @@
+{
+  "name": "get_balance",
+  "description": "Get the current balance for all members of the Splid group, showing who owes whom and suggested payments to settle debts.",
+  "entrypoint": "run.js",
+  "parameters": {}
+}

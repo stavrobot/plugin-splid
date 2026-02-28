@@ -1,0 +1,19 @@
+{
+  "name": "add_payment",
+  "description": "Record a payment (money transfer) between two members to settle a debt in the Splid group.",
+  "entrypoint": "run.js",
+  "parameters": {
+    "from": {
+      "type": "string",
+      "description": "Name of the person sending the money. Must match a member name in the group."
+    },
+    "to": {
+      "type": "string",
+      "description": "Name of the person receiving the money. Must match a member name in the group."
+    },
+    "amount": {
+      "type": "number",
+      "description": "Amount of money being transferred."
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "get_expenses",
+  "description": "List recent expenses and payments in the Splid group.",
+  "entrypoint": "run.js",
+  "parameters": {
+    "limit": {
+      "type": "integer",
+      "description": "Maximum number of entries to return. Defaults to 20."
+    }
+  }
+}

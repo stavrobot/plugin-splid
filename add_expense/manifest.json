@@ -1,0 +1,23 @@
+{
+  "name": "add_expense",
+  "description": "Add a new expense to the Splid group. The payer and profiteers are specified by name.",
+  "entrypoint": "run.js",
+  "parameters": {
+    "title": {
+      "type": "string",
+      "description": "Description of the expense (e.g. 'Groceries', 'Dinner')."
+    },
+    "amount": {
+      "type": "number",
+      "description": "Total amount of the expense."
+    },
+    "payer": {
+      "type": "string",
+      "description": "Name of the person who paid. Must match a member name in the group."
+    },
+    "profiteers": {
+      "type": "string",
+      "description": "Comma-separated list of member names who benefit from this expense. If omitted, the expense is split equally among all members."
+    }
+  }
+}

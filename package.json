@@ -1,0 +1,7 @@
+{
+  "name": "plugin-splid",
+  "private": true,
+  "dependencies": {
+    "splid-js": "^1"
+  }
+}
