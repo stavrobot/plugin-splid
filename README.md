@@ -9,12 +9,13 @@ This plugin lets you interact with your Splid expense-sharing groups through Sta
 - Check who owes whom and how much (**get_balance**)
 - List recent expenses and payments (**get_expenses**)
 - Add new expenses to the group (**add_expense**)
+- Record payments between members (**add_payment**)
 
 ## Installation
 
 Tell Stavrobot:
 
-> Install the plugin at `https://github.com/skorokithakis/plugin-splid`
+> Install the plugin at `https://github.com/stavrobot/plugin-splid`
 
 Then configure the invite code for your Splid group:
 
